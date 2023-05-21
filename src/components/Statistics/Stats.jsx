@@ -15,4 +15,3 @@ const Stats = () => {
 
 export {Stats}
 
-// 2:16
