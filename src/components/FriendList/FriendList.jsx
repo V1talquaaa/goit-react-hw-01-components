@@ -1,6 +1,6 @@
 import css from './FriendList.module.css';
 import { friends } from 'index';
-import PropTypes from 'prop-types'
+
 
 const FriendList = () => {
     return <ul className={css.friendlist}>
