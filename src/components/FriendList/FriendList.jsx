@@ -1,8 +1,8 @@
 import css from './FriendList.module.css';
-import { friends } from 'index';
+// import { friends } from 'index';
+import { friends } from '../App';
 
-
-const FriendList = () => {
+const FriendList = ({friends}) => {
     return <ul className={css.friendlist}>
         <Friends />
     </ul>
@@ -21,3 +21,4 @@ const Friends = () => {
   
 
 export {FriendList}
+

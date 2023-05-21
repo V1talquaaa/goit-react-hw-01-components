@@ -1,4 +1,5 @@
-import { transactions } from 'index'
+
+import { transactions } from 'components/App'
 import css from './TransactionHistory.module.css'
 
 
@@ -14,13 +15,13 @@ const TransactionHistory = () => {
   </thead>
 
   <tbody className={css.tableBody}>
-    <Transactions />
+    <Transactions transactions={transactions}/>
   </tbody>
 </table>
     )
 }
 
-const Transactions = () => {
+const Transactions = ({transactions}) => {
     return transactions.map(({id, type, amount, currency}) => {
         return (
         <tr className={css.transactionLine} key={id}>
