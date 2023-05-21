@@ -1,7 +1,7 @@
 import { user } from 'index'
 import css from './Profile.module.css'
 
-export default function Profile({username, tag, location, avatar, stats}) {
+export default function Profile() {
 return (
 <div className={css.profile}>
   <div className={css.description}>
