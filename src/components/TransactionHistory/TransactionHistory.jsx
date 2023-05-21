@@ -33,4 +33,6 @@ const Transactions = ({transactions}) => {
     })
 }
 
+
+
 export {TransactionHistory}

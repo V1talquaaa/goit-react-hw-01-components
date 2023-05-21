@@ -1,9 +1,9 @@
-// import { data } from "index"
+
 import css from './Statistic.module.css'
 import {data} from '../App'
 
  
-const Stats = ({title, stats}) => {
+const Stats = () => {
     return data.map(({id, label, percentage}) => {
     return(
     <li key={id}className={css.item}>

@@ -1,4 +1,4 @@
-// import { user } from 'index'
+
 import css from './Profile.module.css'
 
 

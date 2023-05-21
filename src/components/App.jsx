@@ -6,7 +6,7 @@ import friends from '../Data/friends.json'
 import user from '../Data/user.json'
 import data from '../Data/data.json'
 import transactions from '../Data/transactions.json'
-export {friends, user, data, transactions}
+export {data, transactions}
 
 
 
