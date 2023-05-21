@@ -1,0 +1,43 @@
+.statistics {
+width: 100%;
+margin: 20px auto;
+}
+
+.title{
+text-align: center;
+color:rgb(87, 82, 82)
+}
+
+.statlist {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.item {
+border: 1px solid black;
+padding: 40px;
+}
+.item:nth-child(1) {
+    background-color: aqua;
+}
+
+.item:nth-child(2) {
+    background-color: rgb(102, 91, 202);
+}
+
+.item:nth-child(3) {
+    background-color: rgb(71, 184, 86);
+}
+
+.item:nth-child(4) {
+    background-color: rgb(151, 119, 119);
+}
+.item:nth-child(5) {
+    background-color: rgb(144, 151, 119);
+}
+
+.percentage {
+
+}
