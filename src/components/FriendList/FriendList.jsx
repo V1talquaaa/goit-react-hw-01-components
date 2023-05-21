@@ -19,8 +19,5 @@ const Friends = () => {
     });
   };
   
-FriendList.propTypes = {
-
-}
 
 export {FriendList}
