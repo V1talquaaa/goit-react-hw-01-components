@@ -9,7 +9,6 @@ import transactions from '../Data/transactions.json'
 export {data, transactions}
 
 
-
 export const App = () => {
   return (
     <>
@@ -22,6 +21,7 @@ export const App = () => {
     <Statistic title="Upload stats" stats={data} />
     <FriendList friends={friends} />
     <TransactionHistory items={transactions}/>
+    
     </>
   );
 };
