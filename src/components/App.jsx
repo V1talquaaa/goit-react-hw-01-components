@@ -6,8 +6,6 @@ import friends from '../Data/friends.json'
 import user from '../Data/user.json'
 import data from '../Data/data.json'
 import transactions from '../Data/transactions.json'
-export {data, transactions}
-
 
 export const App = () => {
   return (
